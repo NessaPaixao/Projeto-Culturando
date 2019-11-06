@@ -11,14 +11,26 @@ const Section = () => {
         <div className="section" >
 
         <div className="bale">
-            <CursosD img={bale} titulo="Curso de Ballet" texto="A dança clássica, também conhecida como ballet, é um tipo de dança que reúne uma série de técnicas e movimentos específicos." />
+            <CursosD 
+            img={bale} 
+            titulo="Curso de Ballet" 
+            texto="A dança clássica, também conhecida como ballet, é um tipo de dança que reúne uma série de técnicas e movimentos específicos." 
+            nome="INSCREVA-SE"/>
         </div>
 
         <div className="teatro">
-            <CursosD img={teatro} titulo="Curso de Teatro" texto="Teatro é um termo de origem grega que designa simultaneamente o conjunto de peças dramáticas para apresentação em público e o edifício onde são apresentadas essas peças." />
+            <CursosD 
+            img={teatro} 
+            titulo="Curso de Teatro" 
+            texto="Teatro é um termo de origem grega que designa simultaneamente o conjunto de peças dramáticas para apresentação em público e o edifício onde são apresentadas essas peças." 
+            nome="EM BREVE"/>
         </div>
         <div className="canto" >
-            <CursosD img={canto} titulo="Curso de Canto" texto="Canto é o ato de produzir sons musicais utilizando a voz, variando a altura de acordo com a melodia e o ritmo" />
+            <CursosD 
+            img={canto} 
+            titulo="Curso de Canto" 
+            texto="Canto é o ato de produzir sons musicais utilizando a voz, variando a altura de acordo com a melodia e o ritmo" 
+            nome="EM BREVE"/>
         </div>
 
         </div>

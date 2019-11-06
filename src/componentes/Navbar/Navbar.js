@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import '../Nav/Navbar.scss';
+import '../Navbar/Navbar.scss';
 import { Link } from 'react-router-dom';
 import Culturando from '../../imagem/culura.png'
 
@@ -14,7 +14,7 @@ const Navbar = () => {
     const fecharMenu = () => {
       setMenuAtivo(false)
     }
-    
+
   return (
     <div className="Navbar">
       <nav>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './CursosD.scss';
+import './Cursos.scss';
 
 
 const CursosD = ({img, titulo, texto }) => {

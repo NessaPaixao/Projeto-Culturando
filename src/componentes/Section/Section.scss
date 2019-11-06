@@ -1,0 +1,11 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(151, 151, 151, 0.322);
+    p{
+        width: 58%;
+        text-align: center;                
+    }
+}

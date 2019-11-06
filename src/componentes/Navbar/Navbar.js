@@ -5,7 +5,16 @@ import Culturando from '../../imagem/culura.png'
 
 
 const Navbar = () => {
- 
+    const [menuAtivo, setMenuAtivo] = useState(false);
+
+    const abrirMenu = () => {
+      setMenuAtivo(!menuAtivo);
+    };
+  
+    const fecharMenu = () => {
+      setMenuAtivo(false)
+    }
+    
   return (
     <div className="Navbar">
       <nav>

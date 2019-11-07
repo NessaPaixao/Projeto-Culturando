@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import Input from "../Input/Input";
-import "./Cadastro.scss";
+import "./CadastroMaior.scss";
 
-const Cadastro = () => {
+const CadastroMaior = () => {
   const [nome, setNome] = useState("");
   const [idade, setIdade] = useState("");
   const [cpf, setCpf] = useState("");
@@ -49,7 +49,7 @@ const Cadastro = () => {
   };
 
   return (
-    <div className="Cadastro">
+    <div className="CadastroMaior">
        <div className="Texto">
             <h1>Faça seu Cadastro</h1>
        </div>
@@ -119,4 +119,4 @@ const Cadastro = () => {
     );
   }
 
-export default Cadastro;
+export default CadastroMaior;

@@ -35,7 +35,6 @@
       }
     }
     .menu {
-      font-family: 'Stoke', serif;
       width: 59%;
       height: 329px;
       background-color:#7e154fc9;
@@ -49,9 +48,10 @@
       left: 0;
       margin-left:130px;
       a {
-        font-family: 'Stoke', serif;
+        font-family: 'Noto Serif', serif;
+        font-weight: 700;
+        font-size: 17px;
         color: white;
-        font-weight: 500;
         text-decoration: none;
         display: flex;
         align-items: center;

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Cursos.scss';
-
+import { Link } from 'react-router-dom';
 
 const CursosD = ({img, titulo, texto, nome }) => {
     return (
@@ -8,7 +8,8 @@ const CursosD = ({img, titulo, texto, nome }) => {
         <img src={img} alt=""/>
         <h2>{titulo}</h2>
         <p>{texto}</p>
-        <button>{nome}</button>
+        <Link to="/cadastro"><button>{nome}</button></Link>
+        
 
         </div>
     )

@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Input from "../Input/Input";
+import Input from "../Footer/Input/Input";
 import "./CadastroMaior.scss";
 
 const CadastroMaior = () => {

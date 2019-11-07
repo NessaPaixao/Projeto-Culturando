@@ -8,4 +8,41 @@
         width: 58%;
         text-align: center;                
     }
+    .bale{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-family: 'Noto Serif', serif;
+        img{
+            width: 120px;
+            height: 120px;
+            border-radius: 100%;
+        }
+        h2{
+            font-weight: 600;
+            font-size: 27px;
+        }
+        p{
+            width: 69%;
+            font-size: 18px;
+            text-align: center;
+            margin-top: -6px;
+        }
+        button{
+            
+            cursor: pointer;
+            font-family: 'Noto Serif', serif;
+            margin-bottom: 20px;
+            height: 50px;
+            width: 150px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 16px;
+            color: white;
+            border: none;
+            background: linear-gradient(to right, #6d1345, #7e154f 20%, #df5442);
+        }
+    }
 }

@@ -4,6 +4,7 @@ import CursosD from '../CursosD/CursosD';
 import bale from '../../imagem/balé.png';
 import teatro from '../../imagem/teatro.png';
 import canto from '../../imagem/canto.jpg';
+import { Link } from 'react-router-dom';
 
 
 const Section = () => {
@@ -11,11 +12,10 @@ const Section = () => {
         <div className="section" >
 
         <div className="bale">
-            <CursosD 
-            img={bale} 
-            titulo="Curso de Ballet" 
-            texto="A dança clássica, também conhecida como ballet, é um tipo de dança que reúne uma série de técnicas e movimentos específicos." 
-            nome="INSCREVA-SE"/>
+            <img src={bale} alt="imagem de balé"></img> 
+            <h2>Curso de Ballet</h2>
+            <p>A dança clássica, também conhecida como ballet, é um tipo de dança que reúne uma série de técnicas e movimentos específicos.</p>
+            <Link to="/cadastro"><button>INSCREVA-SE</button></Link>
         </div>
 
         <div className="teatro">
@@ -30,7 +30,8 @@ const Section = () => {
             img={canto} 
             titulo="Curso de Canto" 
             texto="Canto é o ato de produzir sons musicais utilizando a voz, variando a altura de acordo com a melodia e o ritmo" 
-            nome="EM BREVE"/>
+            nome="EM BREVE"
+            />
         </div>
 
         </div>

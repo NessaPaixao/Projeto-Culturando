@@ -4,7 +4,15 @@ import Input from "../Input/Input";
 import "./CadastroMaior.scss";
 
 const CadastroMaior = () => {
+  const [nome, setNome] = useState("");
+  const [idade, setIdade] = useState("");
+  const [cpf, setCpf] = useState("");
+  const [cep, setCep] = useState("");
+  const [contato, setContato] = useState("");
+  const [email, setEmail] = useState("");
+  const [senha, setSenha] = useState("");
 
+  
 
   return (
     <div className="CadastroMaior">

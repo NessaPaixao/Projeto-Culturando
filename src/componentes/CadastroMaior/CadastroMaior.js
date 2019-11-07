@@ -12,7 +12,42 @@ const CadastroMaior = () => {
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
 
-  
+  const salvarMaiorDeDezoito = (event) => {
+    event.preventDefault();
+
+    fetch('http://127.0.0.1:8000/responsavel/', {
+      method: 'POST',
+      body: JSON.stringify({
+        nome_completo: nome,
+        idade: idade,
+        cpf: cpf,
+        cep: cep,
+        contato: contato,
+        email: email,
+        senha: senha,
+      }),
+      headers: {
+        'Content-Type': 'application/json'
+        }
+    }).then( value => {
+      return value.json()
+    }).then(value => {
+      if(value.id) {
+        alert('Cadastrado com sucesso!');
+        window.open("http://localhost:3006/Cursos")
+        
+      } else{
+        alert('Erro ao cadastrar!')
+      }
+      setNome("");
+      setIdade("");
+      setCpf("");
+      setCep("");
+      setContato("");
+      setEmail("");
+      setSenha("");
+    })
+  };
 
   return (
     <div className="CadastroMaior">

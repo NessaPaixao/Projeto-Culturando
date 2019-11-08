@@ -7,12 +7,11 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Oswald', sans-serif;
-
-
     img{
         margin-top: 100px;
         height: 150px;
-        width: 150px;    
+        width: 150px;
+        border-radius: 100px;    
     }
     h1{
         color: white;
@@ -46,6 +45,7 @@
             margin-bottom: 10px;
         }
         button{
+            outline: none;
             margin-top: 5px;
             cursor: pointer;
             font-family: 'Oswald', sans-serif;

@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import Input from "../Footer/Input/Input";
 import "./CadastroMaior.scss";
+import {API_URL} from '../../Api.js';
 
 const CadastroMaior = () => {
   const [nome, setNome] = useState("");
@@ -14,7 +15,7 @@ const CadastroMaior = () => {
   const salvarMaiorDeDezoito = (event) => {
     event.preventDefault();
 
-    fetch('http://127.0.0.1:8000/responsavel/', {
+    fetch(API_URL + '/responsavel/', {
       method: 'POST',
       body: JSON.stringify({
         nome_completo: nome,

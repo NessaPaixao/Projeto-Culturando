@@ -15,7 +15,7 @@ const Section = () => {
             <img src={bale} alt="imagem de balé"></img> 
             <h2>Curso de Ballet</h2>
             <p>A dança clássica, também conhecida como ballet, é um tipo de dança que reúne uma série de técnicas e movimentos específicos.</p>
-            <Link to="/cadastro"><button>INSCREVA-SE</button></Link>
+            <Link to="/cadastro"><button>CADASTRE-SE</button></Link>
         </div>
 
         <div className="teatro">

@@ -6,7 +6,7 @@ const DadosCursos = () => {
     return(
         <div className="Todos">
             <img src={bale} alt=""></img>
-            <h1>Curso de Ballet</h1>
+            <h1>Ballet</h1>
             <div className="requisitos">
                     <h2>TURMA 01</h2>
                     <p>Dia: Terça-feira</p>

@@ -1,6 +1,6 @@
 .Todos{
     margin: 0;
-    height: 670px;
+    height: 1015px;
     width: 100%;
     background: linear-gradient(to right,#6d1345,#7e154f 20%, #df5442 );
     display: flex;
@@ -30,7 +30,12 @@
         width: 80%;
         justify-content: center;
         align-items: center;
-
+        .Linha{
+            margin-top: 20px; 
+            background-color: black;
+            width: 90%;
+            height: 2px;
+        } 
         h2{
            color:rgb(214, 57, 89);
         }
@@ -55,11 +60,5 @@
             background: linear-gradient(to right, #6d1345, #7e154f 20%, #df5442);
         }
         
-    } 
-    .linha{
-        margin-top: 20px; 
-        background-color: black;
-        width: 90%;
-        height: 2px;
     } 
 }

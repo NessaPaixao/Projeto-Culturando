@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Input from "../Footer/Input/Input";
+import Input from "../Input/Input.js";
 import "./CadastroMaior.scss";
 import {API_URL} from '../../Api.js';
 

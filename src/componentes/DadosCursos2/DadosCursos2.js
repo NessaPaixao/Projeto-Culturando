@@ -8,19 +8,19 @@ const DadosCursos2 = () => {
     return(
         <div className="Todos">
             <img src={pintura} alt=""></img>
-            <h1>Curso de Ballet</h1>
+            <h1>Pintura em Tela </h1>
             <div className="requisitos">
                     <h2>TURMA 01</h2>
-                    <p>Dia: Terça-feira</p>
-                    <p>Horário: 14:00 às 15:00</p>
-                    <p>Faixa etária: 3 a 6 anos/Baby</p>
+                    <p>Dia: Segunda-feira</p>
+                    <p>Horário: 13:00 às 14:30</p>
+                    <p>Faixa etária: 10 a 18 anos</p>
                     <p>Local: CECIN</p>
                     <button>INSCREVA-SE</button>
                     <div className="Linha"></div>
                     <h2>TURMA 02</h2>
-                    <p>Dia: Quinta-feira</p>
-                    <p>Horário: 14:00 às 15:00</p>
-                    <p>Faixa etária: 12 a 17 anos/Juvenil</p>
+                    <p>Dia: Terça-feira</p>
+                    <p>Horário:16:00 às 17:30</p>
+                    <p>Faixa etária: acima de 19 anos</p>
                     <p>Local: CECIN</p>
                     <button>INSCREVA-SE</button> 
             

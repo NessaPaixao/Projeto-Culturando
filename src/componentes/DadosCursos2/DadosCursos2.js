@@ -1,6 +1,6 @@
 import React from "react";
 import './DadosCursos2.scss';
-import pintura from '../../imagem/pintura.jpeg';
+import pintura from '../../imagens/pintura.jpeg';
 
 
 const DadosCursos2 = () => {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import '../Navbar/Navbar.scss';
 import { Link } from 'react-router-dom';
-import Culturando from '../../imagem/culura.png'
+import Culturando from '../../imagens/culura.png'
 
 
 const Navbar = () => {

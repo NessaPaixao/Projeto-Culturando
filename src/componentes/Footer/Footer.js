@@ -1,9 +1,9 @@
 import React from 'react';
 import './Footer.scss';
-import face from '../../imagem/facebook.png';
-import insta from '../../imagem/instagram.png';
-import yout from '../../imagem/youtube.png';
-import culturando from '../../imagem/cultura.png'
+import face from '../../imagens/facebook.png';
+import insta from '../../imagens/instagram.png';
+import yout from '../../imagens/youtube.png';
+import culturando from '../../imagens/cultura.png'
 
 
 const Footer = () => {

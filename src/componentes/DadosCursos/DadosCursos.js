@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import './DadosCursos.scss';
-import bale from '../../imagem/balé.png';
+import bale from '../../imagens/balé.png';
 import Popup from '../Popup/Popup.js'
 const DadosCursos = () => {
     

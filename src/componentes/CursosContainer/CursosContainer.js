@@ -1,8 +1,9 @@
 import './CursosContainer.scss';
+import { Link } from 'react-router-dom';
 import React from 'react';
 
 
-const CursosContainer = ({ img, titulo, texto, botao }) => {
+const CursosContainer = ({ img, titulo, texto, botao, url }) => {
     return (
         <div className="CaixaCursos">
 
@@ -10,8 +11,7 @@ const CursosContainer = ({ img, titulo, texto, botao }) => {
                 <img src={img} alt="" />
                 <h2>{titulo}</h2>
                 <p>{texto}</p>
-                <button div="clicavel">{botao}</button>
-
+                <Link to={url}><button div="clicavel">{botao}</button></Link>
                 <div id="Risco"></div>
 
             </div>

@@ -28,8 +28,17 @@ const Cursos = () => {
 
             <div className="tcursos">
 
-                <CaixaCursos img={Ballet} titulo="Ballet" texto="Dança executada por um conjunto de bailarinos, em que, juntamente com o cenário, vestimentas e recursos de pantomima, se expressa uma história, um tema ou uma atmosfera; bailado." botao="SAIBA MAIS" />
-                <CaixaCursos img={Pintura} titulo="Pintura em tela" texto="Pintura é uma técnica que utiliza pigmentos em forma líquida para colorir uma superfície, atribuindo tons e texturas, esta superfície pode ser tela, papel etc..." botao="SAIBA MAIS"  />
+                <CaixaCursos img={Ballet} 
+                             titulo="Ballet" 
+                             texto="Dança executada por um conjunto de bailarinos, em que, juntamente com o cenário, vestimentas e recursos de pantomima, se expressa uma história, um tema ou uma atmosfera; bailado." 
+                             botao="SAIBA MAIS"
+                             url="/Informações-Balé" 
+                             />
+                <CaixaCursos img={Pintura}
+                             titulo="Pintura em tela" 
+                             texto="Pintura é uma técnica que utiliza pigmentos em forma líquida para colorir uma superfície, atribuindo tons e texturas, esta superfície pode ser tela, papel etc..." 
+                             botao="SAIBA MAIS"
+                             url="/Informações-Pintura"  />
                 <CaixaCursos img={Teatro} titulo="Teatro" texto="Lugar ou edifício destinado à apresentação de obras dramáticas, óperas ou outros espetáculos públicos."  botao="EM BREVE" />
                 <CursosFalsos embreve="EM BREVE" img={Jazz} titulo="Jazz" texto="Música moderna de origem negro-americana, caracterizada pelo improviso e pelas sonoridades e ritmos sincopados, basicamente extraídos do ragtime e do blues."  />
                 <CursosFalsos embreve="EM BREVE" img={Circo} titulo="Circo" texto="A Roma antiga, grande anfiteatro com camarotes e arquibancadas onde se realizavam espetáculos público"  />

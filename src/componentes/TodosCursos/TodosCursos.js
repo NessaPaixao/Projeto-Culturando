@@ -1,22 +1,22 @@
 import React from 'react';
 import './CursosContainer/CursosContainer.scss';
-import CaixaCursos from './CursosContainer/CursosContainer.js';
-import CursosFalsos from './CursosFalsos/CursosFalsos.js';
+import CaixaCursos from '../CursosContainer/CursosContainer.js';
+import CursosFalsos from '../CursosFalsos/CursosFalsos.js';
 
 //imagens dos cursos
 
 import Ballet from '../../imagem/balé.png'
-// import Circo from '../imagens/Circo.jpg'
-// import Artesanato from '../imagens/Artesanato.jpg'
-// import Meditação from '../imagens/meditacao.jpg'
-// import Jazz from '../imagens/Jazz.jpg'
-// import Dançaderua from '../imagens/Dançaderua.jpg'
-// import Pintura from '../imagens/pintura.jpg'
-// import Canto from '../imagens/Canto.jpg'
-// import Sapateado from '../imagens/Sapateado.jpg'
-// import Teatro from '../imagens/Teatro.jpg'
-// import Dançadesalão from '../imagens/Dançadesalão.jpeg'
-// import Dançadoventre from '../imagens/Dançadoventre.jpg'
+import Circo from '../../imagens/Circo.jpg'
+import Artesanato from '../../imagens/Artesanato.jpg'
+import Meditação from '../../imagens/meditacao.jpg'
+import Jazz from '../../imagens/Jazz.jpg'
+import Dançaderua from '../../imagens/Dançaderua.jpg'
+import Pintura from '../../imagens/pintura.jpeg'
+import Canto from '../../imagem/canto.jpg'
+import Sapateado from '../../imagens/Sapateado.jpg'
+import Teatro from '../../imagens/teatro.png'
+import Dançadesalão from '../../imagens/Dançadesalão.jpeg'
+import Dançadoventre from '../../imagens/Dançadoventre.jpg'
 
 
 const Cursos = () => {

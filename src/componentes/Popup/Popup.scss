@@ -6,14 +6,37 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    visibility: hidden;
+    font-family: 'Oswald', sans-serif;
+    
     .popup{
-        background-color: gray;
-        width: 80%;
-        height: 70%;
-        border-radius: 10%;
+        background-color: rgb(235, 225, 225);
+        width: 92%;
+        height: 85%;
+        border-radius: 7%;        
         h1{
+            font-family: 'Oswald', sans-serif;
             color:limegreen;
+            font-size: 20pt;
+            margin-left:10px; 
+
+        }
+        p{
+            font-size: 14pt;
+            margin-left:5px;
+
+        }
+        span{
+            color:red;
+        }
+        button{
+            background-color: limegreen;
+            color:white;
+            font-weight: 600;
+            margin-left: 100px;
+            height: 25px;
+            width: 75px;
+            border:none;
+            border-radius: 10%;
         }
     }
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './Popup.scss';
 import { Link } from 'react-router-dom';
 
-const Popup = () => {
+const Popup = ({fechar}) => {
 
     return ( 
         <div className="fundo">
@@ -15,7 +15,7 @@ const Popup = () => {
                         <p>*Copia do comprovante de residência</p>
                         <p>*1 foto 3X4</p>
                     </p>
-                        <Link to="/"><button>OK</button></Link>  
+                        <button onClick={fechar}> OK</button>
             </div>
         </div>
 

@@ -6,7 +6,7 @@ const CursosContainer = ({ img, titulo, texto, botao }) => {
     return (
         <div className="CaixaCursos">
 
-            <div className="CursosD">
+            <div className="CursosDis">
                 <img src={img} alt="" />
                 <h2>{titulo}</h2>
                 <p>{texto}</p>

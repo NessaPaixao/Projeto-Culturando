@@ -1,8 +1,9 @@
 import React from "react";
 import './DadosCursos.scss';
 import bale from '../../imagem/balé.png';
+import Popup from '../Popup/Popup.js'
 const DadosCursos = () => {
-
+    
     return(
         <div className="Todos">
             <img src={bale} alt=""></img>
@@ -24,7 +25,7 @@ const DadosCursos = () => {
             
                     
             </div>
-            
+            <Popup/>
 
         </div>
     )

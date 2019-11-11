@@ -6,10 +6,10 @@ import pintura from '../../imagem/pintura.jpeg';
 const DadosCursos2 = () => {
 
     return(
-        <div className="Todos">
+        <div className="Todos2">
             <img src={pintura} alt=""></img>
             <h1>Pintura em Tela </h1>
-            <div className="requisitos">
+            <div className="requisitos2">
                     <h2>TURMA 01</h2>
                     <p>Dia: Segunda-feira</p>
                     <p>Horário: 13:00 às 14:30</p>
